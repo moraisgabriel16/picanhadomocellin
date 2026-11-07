@@ -195,7 +195,7 @@
     "category": "Sobremesas",
     "name": "Petit gâteau com ganache de chocolate",
     "price": 29.9,
-    "description": ""
+    "description": "Chocolate derretido por cima"
   },
   {
     "category": "Sobremesas",
@@ -381,55 +381,55 @@
     "category": "Drinks",
     "name": "Gin tônica",
     "price": 25.9,
-    "description": ""
+    "description": "Gin, água tônica, rodelas de limão e gelo"
   },
   {
     "category": "Drinks",
     "name": "Gin de maçã verde",
     "price": 28.9,
-    "description": ""
+    "description": "Gin, xarope de maçã verde, água tônica e gelo"
   },
   {
     "category": "Drinks",
     "name": "Gin tropical",
     "price": 29.9,
-    "description": ""
+    "description": "Gin, energético tropical, suco de laranja e gelo"
   },
   {
     "category": "Drinks",
     "name": "Gin watermelon",
     "price": 29.9,
-    "description": ""
+    "description": "Gin, energético de melancia e gelo"
   },
   {
     "category": "Drinks",
     "name": "Mojito",
     "price": 26.9,
-    "description": ""
+    "description": "Rum, Sprite, suco de limão, hortelã e gelo"
   },
   {
     "category": "Drinks",
     "name": "43 Coffee",
     "price": 29.9,
-    "description": ""
+    "description": "Licor 43, café expresso e gelo"
   },
   {
     "category": "Drinks",
     "name": "Amarula Coffee",
     "price": 33.9,
-    "description": ""
+    "description": "Amarula, café expresso e gelo"
   },
   {
     "category": "Drinks",
     "name": "Amarula 43 Coffee",
     "price": 36.9,
-    "description": ""
+    "description": "Amarula, Licor 43, café expresso e gelo"
   },
   {
     "category": "Drinks",
     "name": "Aperol Spritz",
     "price": 33.9,
-    "description": ""
+    "description": "Aperol, prosecco, tônica, rodela de laranja e gelo"
   },
   {
     "category": "Drinks",

@@ -1,0 +1,573 @@
+// Arquivo gerado automaticamente. Altere menu.json e rode python scripts/sync-menu.py
+window.MOCELLIN_MENU = [
+  {
+    "category": "Carnes",
+    "name": "Picanha Angus",
+    "price": 28.9,
+    "description": "Preço por 100g · Com ou sem alho"
+  },
+  {
+    "category": "Carnes",
+    "name": "Cupim",
+    "price": 19.9,
+    "description": "Preço por 100g · Com ou sem alho"
+  },
+  {
+    "category": "Carnes",
+    "name": "Fraldinha",
+    "price": 16.9,
+    "description": "Preço por 100g · Vendida apenas em 500g ou 1kg · Com ou sem alho"
+  },
+  {
+    "category": "Carnes",
+    "name": "Fraldinha Red",
+    "price": 19.9,
+    "description": "Preço por 100g · Vendida apenas em 500g ou 1kg · Com ou sem alho"
+  },
+  {
+    "category": "Carnes",
+    "name": "Coração tradicional",
+    "price": 12.9,
+    "description": "Por 100g · Com ou sem alho"
+  },
+  {
+    "category": "Carnes",
+    "name": "Coração especial da casa",
+    "price": 13.9,
+    "description": "Por 100g · Com ou sem alho"
+  },
+  {
+    "category": "Carnes",
+    "name": "Linguiça Perdigão tradicional",
+    "price": 11.9,
+    "description": "Por 100g"
+  },
+  {
+    "category": "Carnes",
+    "name": "Linguiça Perdigão com queijo coalho",
+    "price": 13.9,
+    "description": "Por 100g"
+  },
+  {
+    "category": "Carnes",
+    "name": "Queijo",
+    "price": 12.9,
+    "description": "Por 100g"
+  },
+  {
+    "category": "Carnes",
+    "name": "Queijo de búfala",
+    "price": 14.9,
+    "description": "Por 100g"
+  },
+  {
+    "category": "Carnes",
+    "name": "Tulipa de frango",
+    "price": 10.9,
+    "description": "Por 100g"
+  },
+  {
+    "category": "Carnes",
+    "name": "Pão de alho",
+    "price": 13.9,
+    "description": "Por unidade"
+  },
+  {
+    "category": "Acompanhamentos",
+    "name": "Mandioca",
+    "price": 4.9,
+    "description": ""
+  },
+  {
+    "category": "Acompanhamentos",
+    "name": "Tomate",
+    "price": 4.9,
+    "description": ""
+  },
+  {
+    "category": "Acompanhamentos",
+    "name": "Molho de alho",
+    "price": 3,
+    "description": ""
+  },
+  {
+    "category": "Acompanhamentos",
+    "name": "Arroz — meia porção tradicional",
+    "price": 11.9,
+    "description": ""
+  },
+  {
+    "category": "Acompanhamentos",
+    "name": "Arroz — meia porção com alho",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Acompanhamentos",
+    "name": "Arroz — porção inteira tradicional",
+    "price": 17.9,
+    "description": ""
+  },
+  {
+    "category": "Acompanhamentos",
+    "name": "Arroz — porção inteira com alho",
+    "price": 19.9,
+    "description": ""
+  },
+  {
+    "category": "Saladas",
+    "name": "Tomate com cebola roxa",
+    "price": 14.9,
+    "description": ""
+  },
+  {
+    "category": "Saladas",
+    "name": "Tomate, palmito e cebola roxa",
+    "price": 23.9,
+    "description": ""
+  },
+  {
+    "category": "Saladas",
+    "name": "Salada de rúcula",
+    "price": 23.9,
+    "description": ""
+  },
+  {
+    "category": "Saladas",
+    "name": "Rúcula com palmito",
+    "price": 31.9,
+    "description": ""
+  },
+  {
+    "category": "Saladas",
+    "name": "Rúcula com mussarela de búfala",
+    "price": 31.9,
+    "description": ""
+  },
+  {
+    "category": "Saladas",
+    "name": "Salada completa",
+    "price": 38.9,
+    "description": "Rúcula, tomate, palmito, mussarela de búfala e cebola roxa"
+  },
+  {
+    "category": "Porções",
+    "name": "Batata frita — meia porção",
+    "price": 22.9,
+    "description": ""
+  },
+  {
+    "category": "Porções",
+    "name": "Batata frita — inteira",
+    "price": 29.9,
+    "description": ""
+  },
+  {
+    "category": "Porções",
+    "name": "Batata com catupiry — meia porção",
+    "price": 29.9,
+    "description": ""
+  },
+  {
+    "category": "Porções",
+    "name": "Batata com catupiry — inteira",
+    "price": 36.9,
+    "description": ""
+  },
+  {
+    "category": "Porções",
+    "name": "Bolinho de arroz",
+    "price": 22.9,
+    "description": ""
+  },
+  {
+    "category": "Porções",
+    "name": "Jiló",
+    "price": 19.9,
+    "description": ""
+  },
+  {
+    "category": "Sobremesas",
+    "name": "Sorvete de creme",
+    "price": 9.9,
+    "description": ""
+  },
+  {
+    "category": "Sobremesas",
+    "name": "Petit gâteau com ganache de chocolate",
+    "price": 29.9,
+    "description": "Chocolate derretido por cima"
+  },
+  {
+    "category": "Sobremesas",
+    "name": "Creme de papaya com licor de cassis",
+    "price": 19.9,
+    "description": ""
+  },
+  {
+    "category": "Bebidas",
+    "name": "Água sem gás",
+    "price": 4.5,
+    "description": ""
+  },
+  {
+    "category": "Bebidas",
+    "name": "Água com gás",
+    "price": 5.5,
+    "description": ""
+  },
+  {
+    "category": "Bebidas",
+    "name": "Refrigerante lata",
+    "price": 7.9,
+    "description": ""
+  },
+  {
+    "category": "Bebidas",
+    "name": "Limonada suíça",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Bebidas",
+    "name": "Red Bull",
+    "price": 16.9,
+    "description": ""
+  },
+  {
+    "category": "Bebidas",
+    "name": "Suco Del Valle",
+    "price": 7.9,
+    "description": "Uva ou pêssego"
+  },
+  {
+    "category": "Bebidas",
+    "name": "Suco de polpa",
+    "price": 11.9,
+    "description": "Maracujá, acerola, caju ou goiaba"
+  },
+  {
+    "category": "Bebidas",
+    "name": "Suco natural",
+    "price": 11.9,
+    "description": "Laranja, limão, abacaxi, morango, abacaxi com hortelã ou frutas vermelhas"
+  },
+  {
+    "category": "Bebidas",
+    "name": "Soda italiana",
+    "price": 17.9,
+    "description": "Frutas vermelhas, limão siciliano ou maçã verde"
+  },
+  {
+    "category": "Cervejas",
+    "name": "Antártica Boa 600ml",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Amstel 600ml",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Brahma 600ml",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Corona 600ml",
+    "price": 19.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Original 600ml",
+    "price": 15.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Heineken 600ml",
+    "price": 18.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Budweiser long neck",
+    "price": 12.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Heineken long neck",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Heineken Ultimate long neck",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Heineken Zero long neck",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Michelob long neck",
+    "price": 12.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Corona long neck",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Cervejas",
+    "name": "Stella Artois Pure Gold long neck",
+    "price": 13.9,
+    "description": ""
+  },
+  {
+    "category": "Drinks",
+    "name": "Cozumel",
+    "price": 19.9,
+    "description": "Budweiser, limão, sal e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "Caipirinha de limão",
+    "price": 22.9,
+    "description": ""
+  },
+  {
+    "category": "Drinks",
+    "name": "Caipirinha especial",
+    "price": 24.9,
+    "description": "Morango, abacaxi, kiwi, maracujá ou frutas vermelhas"
+  },
+  {
+    "category": "Drinks",
+    "name": "Caipivodka limão — vodka nacional",
+    "price": 23.9,
+    "description": ""
+  },
+  {
+    "category": "Drinks",
+    "name": "Caipivodka limão — vodka importada",
+    "price": 29.9,
+    "description": ""
+  },
+  {
+    "category": "Drinks",
+    "name": "Caipivodka especial — vodka nacional",
+    "price": 24.9,
+    "description": ""
+  },
+  {
+    "category": "Drinks",
+    "name": "Caipivodka especial — vodka importada",
+    "price": 30.9,
+    "description": ""
+  },
+  {
+    "category": "Drinks",
+    "name": "Gin tônica",
+    "price": 25.9,
+    "description": "Gin, água tônica, rodelas de limão e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "Gin de maçã verde",
+    "price": 28.9,
+    "description": "Gin, xarope de maçã verde, água tônica e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "Gin tropical",
+    "price": 29.9,
+    "description": "Gin, energético tropical, suco de laranja e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "Gin watermelon",
+    "price": 29.9,
+    "description": "Gin, energético de melancia e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "Mojito",
+    "price": 26.9,
+    "description": "Rum, Sprite, suco de limão, hortelã e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "43 Coffee",
+    "price": 29.9,
+    "description": "Licor 43, café expresso e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "Amarula Coffee",
+    "price": 33.9,
+    "description": "Amarula, café expresso e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "Amarula 43 Coffee",
+    "price": 36.9,
+    "description": "Amarula, Licor 43, café expresso e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "Aperol Spritz",
+    "price": 33.9,
+    "description": "Aperol, prosecco, tônica, rodela de laranja e gelo"
+  },
+  {
+    "category": "Drinks",
+    "name": "CDB",
+    "price": 4.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Vodka Absolut",
+    "price": 17.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Vodka Orloff",
+    "price": 9.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Campari",
+    "price": 11.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Pinga Seleta",
+    "price": 10.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Gin Beefeater",
+    "price": 17.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Gin Tanqueray",
+    "price": 17.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Whisky Old Parr",
+    "price": 22.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Amarula",
+    "price": 22.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Ballena",
+    "price": 24.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Licor 43",
+    "price": 24.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Curaçau Blue",
+    "price": 10.9,
+    "description": ""
+  },
+  {
+    "category": "Doses",
+    "name": "Tequila José Cuervo",
+    "price": 17.9,
+    "description": ""
+  },
+  {
+    "category": "Chopp",
+    "name": "Chopp Itaipava 300ml",
+    "price": 9.9,
+    "description": ""
+  },
+  {
+    "category": "Vinhos",
+    "name": "DV Catena Cabernet Malbec",
+    "price": 184.9,
+    "description": "Tinto seco"
+  },
+  {
+    "category": "Vinhos",
+    "name": "DV Catena Malbec Malbec",
+    "price": 209.9,
+    "description": "Tinto seco"
+  },
+  {
+    "category": "Vinhos",
+    "name": "San Felician Malbec",
+    "price": 164.9,
+    "description": "Tinto seco"
+  },
+  {
+    "category": "Vinhos",
+    "name": "Cordeiro con Piel de Lobo Malbec",
+    "price": 98.9,
+    "description": "Tinto seco"
+  },
+  {
+    "category": "Vinhos",
+    "name": "Cordeiro con Piel de Lobo Merlot",
+    "price": 98.9,
+    "description": "Tinto seco"
+  },
+  {
+    "category": "Vinhos",
+    "name": "500 Verde Rosé",
+    "price": 119.9,
+    "description": "Meio seco"
+  },
+  {
+    "category": "Vinhos",
+    "name": "500 Verde Branco",
+    "price": 119.9,
+    "description": "Meio seco"
+  },
+  {
+    "category": "Vinhos",
+    "name": "Frisante Lambrusco Rosso",
+    "price": 94.9,
+    "description": "Tinto suave"
+  },
+  {
+    "category": "Vinhos",
+    "name": "Frisante Lambrusco Bianco",
+    "price": 94.9,
+    "description": "Branco suave"
+  }
+];

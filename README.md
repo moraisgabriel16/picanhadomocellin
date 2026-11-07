@@ -1,31 +1,57 @@
-# Picanha do Mocellin — site e cardápio digital
+# Picanha do Mocellin — Site e cardápio digital (v2)
 
-## Arquivos
-- `index.html`: página de divulgação
-- `cardapio.html`: cardápio digital com busca e filtros
-- `menu.json`: itens e preços editáveis
-- `styles.css`: identidade visual e responsividade
-- `menu.js`: filtros e renderização do cardápio
-- `assets/`: imagens extraídas do PDF fornecido
-- `cardapio-original.pdf`: cardápio original
+## Como usar
 
-## Publicação
-Projeto estático, sem build nem backend. Faça upload desta pasta para um repositório GitHub e importe na Vercel com **Framework Preset: Other** e **Output Directory: .**. Alternativamente, use Netlify ou qualquer hospedagem estática.
+Abra **index.html** para a página de divulgação e **cardapio.html** para consultar o cardápio. O projeto é estático e funciona sem backend. Pode publicar a pasta inteira na Vercel, Netlify, GitHub Pages ou qualquer hospedagem de sites estáticos.
 
-## Teste local
-No terminal, dentro da pasta:
+No Vercel: **Add New > Project**, importe um repositório contendo estes arquivos, selecione **Other** como framework e deixe o diretório de saída em branco. Não é necessário build. Se preferir, carregue o projeto no seu repositório GitHub primeiro.
+
+## O que mudou
+
+- Nova direção de arte de restaurante, com tipografia editorial, fotografia real extraída do cardápio fornecido, tom de carvão, papel e cobre.
+- Home reformulada: capa, manifesto, destaques de cortes, experiência e horários.
+- Cardápio reformulado: carta editorial com navegação por categorias, busca instantânea sem acentos, fotos de seções, preços claros e notas sobre gramagem.
+- Lista pessoal para marcar pratos e copiar escolhas. **Não envia pedidos, não efetua pagamento nem reservas**.
+- Site responsivo, metadados sociais, âncoras, animações sutis, apoio a teclado e acessibilidade, imagens otimizadas WebP.
+- Ícones Lucide carregados via CDN como melhoria progressiva; fontes Google Fonts opcionais (o site também funciona sem eles).
+
+## Atualizar produtos e preços
+
+Edite **menu.json**. Cada item contém `category`, `name`, `price` (número em reais), `description` (opcional). Depois execute:
+
 ```bash
-python -m http.server 8000
+python scripts/sync-menu.py
 ```
-Abra `http://localhost:8000` no navegador. Abrir o HTML diretamente com `file://` pode bloquear a leitura de `menu.json`.
 
-## Atualizar preços
-Edite `menu.json` mantendo a estrutura `category`, `name`, `price` e `description`. Os valores são numéricos com ponto decimal.
+Isso atualiza `menu-data.js`, que o navegador usa sem necessidade de servidor. Preserve os nomes das categorias existentes para manter a navegação. Atualmente: **95 itens em 11 categorias**.
 
-## Observações
-- As imagens são reproduções de páginas do PDF fornecido pelo estabelecimento, não fotografias independentes.
-- O site não coleta pedidos nem pagamentos.
-- Endereço e telefone não foram informados e não foram inventados.
-- Domingo não teve horário informado; consulte o Instagram.
-- A nota do PDF sobre preços por 100g foi aplicada aos itens de churrasco; confirme com o estabelecimento eventuais exceções.
-- As fontes DM Sans e Oswald são carregadas pelo Google Fonts, com fallback local.
+## Horários e contato
+
+- Segunda a quinta: 17h30–23h30
+- Sexta e sábado: 17h30–00h00
+- Instagram: https://www.instagram.com/picanhadomocellin
+- Domingo: não informado; nenhuma informação foi presumida.
+
+## Fotos e preços
+
+As fotos foram extraídas do arquivo **“Cardápio - Picanha MocellinREV09.pdf”**, entregue para este projeto, e otimizadas em WebP. Algumas fotos são ilustrações de seções e não devem ser entendidas como foto exclusiva de cada produto. Preços e descrições se baseiam na versão do PDF fornecida; revise com o estabelecimento antes da publicação. Não inclua um endereço ou telefone sem confirmação.
+
+**Aviso:** o PDF original foi omitido do ZIP para reduzir drasticamente o tamanho do pacote. O arquivo menu.json contém o catálogo digital.
+
+## Estrutura
+
+```
+index.html            - Página de divulgação
+cardapio.html         - Cardápio digital
+styles.css            - Estilos responsivos
+site.js               - Animações suaves e ícones
+menu.js               - Busca, navegação e seleção
+menu.json             - Dados editáveis do cardápio
+menu-data.js          - Dados consumidos pelo navegador
+scripts/sync-menu.py  - Sincronização dos dados
+assets/images/        - Imagens otimizadas da marca e dos pratos
+```
+
+## Personalização para publicação
+
+Ao publicar com domínio próprio, você pode editar `og:image` e inserir uma URL absoluta da foto de capa para melhorar a prévia em compartilhamentos. O projeto não pressupõe nem inventa endereço, telefone, WhatsApp ou serviço de pedidos.
